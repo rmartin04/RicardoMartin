@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>es.cursojava.ricardomartin</groupId>
-  <artifactId>Ricardo_Martin</artifactId>
+  <artifactId>Examen_Ricardo_Martin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
 		<sourceDirectory>src</sourceDirectory>
@@ -48,6 +48,11 @@
     <version>23.7.0.25.01</version>
 </dependency>
 
-</dependencies>
+		<dependency>
+			<groupId>es.cursojava.ricardomartin</groupId>
+			<artifactId>CursoJava</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
